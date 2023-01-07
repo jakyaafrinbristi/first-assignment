@@ -10,15 +10,17 @@
     width: 1600px;
     height: 809px;
 }
-.banner{
+
+.banner {
     text-align: right;
     margin: 0px 200px;
     padding: 200px 300px 250px 400px;
-    
-   
+
+
 }
+
 .banner-title {
-    
+
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
@@ -42,4 +44,114 @@
     border-radius: 5px;
     padding: 18px 36px;
     border: 0;
+}
+
+/* main section*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+/* previous section styles */
+
+.previous {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+
+}
+
+.previous-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-left: 130px;
+    margin-bottom: 20px;
+
+}
+
+.previous-description {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+    padding-left: 130px;
+
+
+}
+
+.list {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style-type: none;
+    padding-left: 140px;
+}
+
+/* my plan styles */
+
+.plan-subtitle {
+    text-align: center;
+}
+
+.plan {
+    padding: 30px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* third section styles */
+.third {
+    background-image: url('../images/watch.png'), url(../images/gradient2.png);
+    width: 1140px;
+    height: 300px;
+    text-align: left;
+}
+
+
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding:40px;
+    
+}
+
+.btn2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    
+    border: 0 solid;
+    
+    
 }
