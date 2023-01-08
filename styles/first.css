@@ -58,20 +58,23 @@ main {
 /* previous section styles */
 
 .previous {
-    margin: 0 200px;
+    
     display: flex;
-    align-items: center;
-    padding: 35px;
+    margin:auto;
+    padding: 35px 50px;
 
 }
+
 
 .previous-title {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    padding-left: 130px;
-    margin-bottom: 20px;
+    padding-top:200px ;
+    margin-bottom: 24px;
+    
+    
 
 }
 
@@ -81,8 +84,7 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin-bottom: 20px;
-    padding-left: 130px;
+    padding: 30px;
 
 
 }
@@ -94,24 +96,25 @@ main {
     font-size: 16px;
     color: #444343;
     list-style-type: none;
-    padding-left: 140px;
+    
 }
 
 /* my plan styles */
 
 .plan-subtitle {
     text-align: center;
+    padding-top: 10px;
 }
 
-.plan {
-    padding: 30px;
-}
+
 
 .plans-container {
     display: flex;
     gap: 24px;
-
+    padding: 30px;
 }
+
+
 
 .plan-title {
     font-weight: 700;
@@ -129,10 +132,20 @@ main {
 
 /* third section styles */
 .third {
-    background-image: url('../images/watch.png'), url(../images/gradient2.png);
+    background-image: url('../images/watch.png');
     width: 1140px;
     height: 300px;
+    
+    
+}
+.positive{
+    background-image: url('../images/gradient2.png');
     text-align: left;
+    margin-top: 40px;
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+
 }
 
 
@@ -150,7 +163,8 @@ main {
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
-    
+    padding: 25px;
+    margin-left: 40px;
     border: 0 solid;
     
     
