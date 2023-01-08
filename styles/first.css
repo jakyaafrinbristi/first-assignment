@@ -58,9 +58,9 @@ main {
 /* previous section styles */
 
 .previous {
-    
+
     display: flex;
-    margin:auto;
+    margin: auto;
     padding: 35px 50px;
 
 }
@@ -71,10 +71,10 @@ main {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    padding-top:200px ;
+    padding-top: 200px;
     margin-bottom: 24px;
-    
-    
+
+
 
 }
 
@@ -96,7 +96,7 @@ main {
     font-size: 16px;
     color: #444343;
     list-style-type: none;
-    
+
 }
 
 /* my plan styles */
@@ -135,10 +135,11 @@ main {
     background-image: url('../images/watch.png');
     width: 1140px;
     height: 300px;
-    
-    
+
+
 }
-.positive{
+
+.positive {
     background-image: url('../images/gradient2.png');
     text-align: left;
     margin-top: 40px;
@@ -154,8 +155,8 @@ main {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
-    padding:40px;
-    
+    padding: 40px;
+
 }
 
 .btn2 {
@@ -167,17 +168,56 @@ main {
     margin-left: 40px;
     border: 0 solid;
     border-radius: 5px;
-    
+
 }
-    
-    
+
+
 /* my own section styles */
-.own{
+.own {
     margin-top: 50px;
     background-color: pink;
-    padding:50px;  
-    } 
-.food{
+    padding: 50px;
+}
+
+.food {
     padding-top: 20px;
 
 }
+
+/* last styles */
+.last {
+    display: flex;
+    gap: 400px;
+    margin-top: 24px;
+    background: #151414;
+    padding: 70px 80px;
+    
+
+}
+
+.last .last-title {
+    text-align: left;
+}
+
+.btn3 {
+    color: #F15B22;
+    border: 3px solid;
+    margin-top: 24px;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+}
+.last-title{
+    margin-bottom: 24px;
+    color:#FFFFFF; 
+
+}
+.last-des{
+    margin-bottom: 24px;
+    color:#FFFFFF; 
+}
+.last a{
+    text-decoration: none;
+}
+
+
